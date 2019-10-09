@@ -4,10 +4,18 @@ Esse é um teste que eu fiz para
 poder mostrar o que eu sei sobre
 as tecnologia web.
 
+## Problema:
+ - server.json com uma listagem de encomendas.
+ - A nossa necessidade e listar estas encomendas em uma tabela com as seguintes colunas (código, nome do cliente, valor, valor_final, e data de entrega.), sendo que o máximo de itens que por página será de 4 registros por página.
+ - Ao clicar no nome do cliente será possível visualizar todos os dados do registro.
+
 ## Observação:
-- Html, Css Js
-- Framework Js = Jquery , Ajax
-- Desenvolvido em Windowns SO
+
+ -  Valor_final=valor da encomenda de acrescido 4,3%.
+ -  Gostaríamos que a solução seja desenvolvida utilizando uma JavaScript library, preferencialmente jQuery.
+ -  É necessário a estilização da pagina.
+ -  Será avaliado a qualidade e a organização do código (html, js, css).
+ -  Qualquer acréscimo para auxiliar ou melhorar a experiência de usuário será bem-vinda.
 
 
 ## Desenvolvedor:
