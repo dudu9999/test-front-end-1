@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste Front-end</title>
+	<meta CHARSET='UTF-8'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="scripts/script.js"></script> 
+	<script src="scripts/jquery.min.js"></script>
+<!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript">
+				$.getJSON("scripts/server.json", function(data){
+				var items = [];
+				$.each(data.encomendas, function(key, val){
+					items.push("<li id='"+val.codigo+"'><p>"+val.id+' - '+val.cliente.nome+
+						' - '+val.valor+' - '+val.valor+' - '+val.data+"</p></li>"); 
+				});
+				$("<ul/>",{
+					"class":"minha-lista",
+					html: items.join("")
+					}).appendTo("body");					    
+			});	
+		</script>	 -->
+</head>
+<body>
+<ul><h3>código - nome do cliente - valor - valor final - data de entrega</h3></ul>
+	
+</body>
+</html>
