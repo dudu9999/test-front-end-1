@@ -1,5 +1,7 @@
-$.('document').ready(function(){
-	$.getJSON("scripts/server.json", function(data){
+document.getElementById("lista_produtos").onload = function() {atualizar()};
+
+function atualizar(){
+	$.getJSON("../scripts/server.json", function(data){
 		var items = [];
 		$.each(data.encomendas, function(key, val){
 			items.push("<li id='"+val.codigo+"'><p>"+val.id+' - '+val.cliente.nome+
@@ -9,6 +11,7 @@ $.('document').ready(function(){
 		$("<ul/>",{
 			"class":"minha-lista",
 			html: items.join("")
-			}).appendTo("body");					    
+			}).appendTo("#lista_produtos");					    
 	});	
-});
+}
+//lista_produtos
